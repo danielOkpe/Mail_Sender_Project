@@ -1,10 +1,10 @@
-package com.MailSender.maislSender;
+package com.mailapplication.sendmail;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MaislSenderApplicationTests {
+class SendmailApplicationTests {
 
 	@Test
 	void contextLoads() {

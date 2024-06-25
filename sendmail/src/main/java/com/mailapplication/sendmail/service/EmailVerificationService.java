@@ -1,4 +1,4 @@
-package com.MailSender.maislSender.service;
+package com.mailapplication.sendmail.service;
 
 import org.springframework.stereotype.Service;
 
@@ -14,10 +14,9 @@ public class EmailVerificationService {
 
     public boolean emailExists(String email) {
         if (EMAIL_PATTERN.matcher(email).matches()) {
-           return true; 
+            return true;
         }else {
             return false;
         }
     }
-
 }

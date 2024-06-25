@@ -1,16 +1,13 @@
-package com.MailSender.maislSender;
+package com.mailapplication.sendmail;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MaislSenderApplication {
+public class SendmailApplication {
 
 	public static void main(String[] args) {
-
-		SpringApplication.run(MaislSenderApplication.class, args);
-
-		System.out.println("Hello World!");
+		SpringApplication.run(SendmailApplication.class, args);
 	}
 
 }

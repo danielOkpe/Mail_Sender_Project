@@ -1,4 +1,4 @@
-package com.MailSender.maislSender.model;
+package com.mailapplication.sendmail.model;
 
 public class EmailRequest {
     private String emailAddress;
