@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  height: 100vh;
+  text-align: center;
+  margin: 0;
+}
+#form {
+  margin: auto;
+  border-radius: 8px;
+  background-color: rgb(22, 201, 141);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 40em;
+  height: 30em;
+  row-gap: 20px;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.write {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#message {
+  height: 100px;
+}
+
+button {
+  width: 100px;
+  cursor: pointer;
+}
+#submit {
+  padding: 8px;
+  margin: 0 auto;
+}
